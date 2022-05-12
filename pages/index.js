@@ -15,7 +15,7 @@ export default function Home() {
             <div className="flex items-center ">
               <div className="">
                 <Link href="https://www.thebitmuseum.com/" passHref>
-                  <a target="_blank">
+                  <a target="_blank" rel="noreferrer">
                     <Image
                       src="/assets/logo.png"
                       width={100}
@@ -129,7 +129,7 @@ export default function Home() {
           <span className="text-sm text-white sm:text-center ">
             © 2022{" "}
             <Link href="https://www.thebitmuseum.com/" passHref>
-              <a target="_blank" className="hover:underline">
+              <a target="_blank" rel="noreferrer" className="hover:underline">
                 The Bit Museum™ . All Rights Reserved.
               </a>
             </Link>
@@ -138,6 +138,7 @@ export default function Home() {
             <a
               href="https://www.tiktok.com/@thebitmuseum"
               target="_blank"
+              rel="noreferrer"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -172,6 +173,7 @@ export default function Home() {
             <a
               href="https://www.instagram.com/thebitmuseum/"
               target="_blank"
+              rel="noreferrer"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -186,6 +188,8 @@ export default function Home() {
             <a
               href="https://discord.com/invite/YXWjqxYusK"
               target="_blank"
+              
+              rel="noreferrer"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -200,6 +204,7 @@ export default function Home() {
             <a
               href="https://twitter.com/TheBitMuseum"
               target="_blank"
+              rel="noreferrer"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
