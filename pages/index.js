@@ -136,7 +136,8 @@ export default function Home() {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.tiktok.com/@thebitmuseum"
+              target="_blank"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -169,7 +170,8 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/thebitmuseum/"
+              target="_blank"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -182,7 +184,8 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://discord.com/invite/YXWjqxYusK"
+              target="_blank"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -195,7 +198,8 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://twitter.com/TheBitMuseum"
+              target="_blank"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
