@@ -105,7 +105,7 @@ export default function Home() {
           <h1>© 2022 The Bit Museum</h1>
         </div>
       </footer> */}
-      <footer className="dark:bg-gray-800 lg:w-3/4 w-full mx-auto m-6 p-4 lg:p-0">
+      <footer className="lg:w-3/4 w-full mx-auto m-6 p-4 lg:p-0">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a
