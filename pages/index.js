@@ -188,7 +188,6 @@ export default function Home() {
             <a
               href="https://discord.com/invite/YXWjqxYusK"
               target="_blank"
-              
               rel="noreferrer"
               className="text-white hover:text-gray-900 dark:hover:text-white"
             >
@@ -221,4 +220,9 @@ export default function Home() {
       </footer>
     </div>
   );
+}
+export async function getServerSideProps(ctx) {
+  return {
+    props: {},
+  };
 }
