@@ -10,6 +10,11 @@ module.exports = {
           100: "#4d1354",
         },
       },
+      fontFamily: {
+        gotham: ["Gotham", "sans-serif"],
+        open_sans: ["Open-Sans","sans-serif"]
+       
+      },
     },
   },
   plugins: [],

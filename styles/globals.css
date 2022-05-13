@@ -13,18 +13,24 @@
   -o-background-size: cover;
   background-size: cover;
 }
+@font-face {
+  font-family: "Gotham";
+  src: url("../public/fonts/Gotham-Font/Gotham-Black.otf");
+  font-family: "Open Sans";
+  src: url("../public/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
 /* 
 * {
   background-color: #4c1454;
 } */
 /* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
+} */
 
 /* Firefox */
-input[type=number] {
+/* input[type=number] {
     -moz-appearance: textfield;
-}
+} */

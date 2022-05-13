@@ -10,9 +10,9 @@ export default function Home() {
     // <div className="bg-gradient-to-r from-mainColor-100">
     <div>
       <div>
-        <div className="flex justify-center">
-          <div className="lg:w-3/4 w-full flex justify-between p-4 lg:p-0">
-            <div className="flex items-center ">
+        <div className="flex justify-center ">
+          <div className="lg:w-3/4 w-full flex justify-between p-4 lg:p-4 ">
+            <div className="flex items-center">
               <div className="">
                 <Link href="https://www.thebitmuseum.com/" passHref>
                   <a target="_blank" rel="noreferrer">
@@ -25,7 +25,7 @@ export default function Home() {
                   </a>
                 </Link>
               </div>
-              <h1 className="tracking-wider font-bold text-white hidden lg:flex">
+              <h1 className="tracking-wider font-gotham text-mainColor-100 hidden lg:flex">
                 The Bit Museum
               </h1>
             </div>
@@ -61,16 +61,16 @@ export default function Home() {
                 type="video/mp4"
               ></video>
             </div>
-            <div className="w-full lg:w-1/2 text-mainColor-100 lg:pl-6  text-justify tracking-wide space-y-8 mt-8">
-              <h1 className="text-center font-bold mb-6 text-3xl text-white">
+            <div className="w-full lg:w-5/12 lg:pl-6 tracking-wide space-y-8 mt-8 ">
+              <h1 className="text-center font-bold mb-6 text-3xl text-mainColor-100 ">
                 Become a TBM Founder!
               </h1>
-              <p className="">
+              <p className="font-open_sans text-justify">
                 By owning a ticket, you will kickstart the project. Being a
                 Founder of the first Historic Metaverse Museum rewards you with
                 the following benefits.
               </p>
-              <ul className="space-y-1">
+              <ul className="space-y-1 font-open_sans text-justify">
                 <li>
                   1. Free access to any future Museum opening in our metaverse
                   platform.
@@ -85,7 +85,7 @@ export default function Home() {
                 </li>
               </ul>
 
-              <div className="flex flex-col items-center space-y-2">
+              <div className="flex flex-col items-center space-y-2 font-open_sans">
                 <h1>How many tickets to mint?</h1>
                 <input
                   className="border border-mainColor-100 rounded-lg p-2"
@@ -105,25 +105,7 @@ export default function Home() {
           <h1>© 2022 The Bit Museum</h1>
         </div>
       </footer> */}
-      <footer className="lg:w-3/4 w-full mx-auto m-6 p-4 lg:p-0">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a
-              href="https://www.thebitmuseum.com/"
-              className="flex items-center"
-            >
-              <Image
-                src="/assets/logo.png"
-                width={30}
-                height={30}
-                objectFit="cover"
-              />
-              <span className="tracking-wider font-bold text-white">
-                The Bit Museum
-              </span>
-            </a>
-          </div>
-        </div>
+      <footer className="lg:w-3/4 w-full mx-auto mt-6 p-4 lg:p-4">
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex items-center justify-between">
           <span className="text-sm text-white sm:text-center ">
